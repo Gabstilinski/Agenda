@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Lista de Contatos</h1>
+
+    <form id="contactForm">
+    <div class="input-container">
+
+            <legend><img src="images/id_card_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de cartão de identificação"></legend>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="input-container">
+            <legend><img src="images/phone_iphone_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Ícone de telefone"></legend>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        
+    </div>
+
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <table id="contactTable">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</body>
+</html>

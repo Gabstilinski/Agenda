@@ -1,0 +1,81 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: x-large;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid black; 
+}
+
+h1 {
+    text-align: center;
+    margin: 30px; 
+    padding: 10px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+body {
+    background-image: url(images/textura-de-papel-ao-quadrado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: blue;
+    font-family: "Gochi Hand";
+}
+
+body img{
+    width: 30px; 
+    height: auto
+}
+
+form {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 15px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    color: black;
+    margin: 5px;
+    background-color: rgba(4, 0, 255, 0.308);
+}
+
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-container img {
+    margin-right: 10px; 
+}
+
+.input-container label {
+    width: 80px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 3px;
+}
